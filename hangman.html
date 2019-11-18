@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman Game</title>
+    <link rel="stylesheet" href="hangmanStyles.css">
+</head>
+<body>
+<header>
+    <h1 id="gameTitle">HANGMAN</h1>
+    <h3>♫ 80's/90's "Bands" ♫</h3>
+    <h4>(Press any letter on your keyboard to start your guesses)</h4>
+</header>
+<br>
+<div id="displayWord"></div>
+<div id="hints"></div>
+<div id="wrongLetter"></div>
+<div id="warnings"></div>
+<div id="losingPhrase"></div>
+
+<button id="hint">Hint?</button>
+<button id="playAgain">Play Again?</button>
+<button id="play">Play Hangman</button>
+<button id="rule">Rules</button>
+
+    <p id="rules">
+        A random 80's/90's "band" name will be chosen, the "band" name to guess is represented by a row of dashes, representing each letter of the word. You start guessing
+        by pressing any letter on your keyboard. Instead of obtaining limbs on your Hangman, it's similar to the game of
+        Horse, every time you choose an incorrect letter you will be given a letter. Once you have reached 7 incorrect
+        guesses or spelled the word "HANGMAN" you Lose. You win by correctly guessing the "band" name. After your 3rd
+        incorrect guess you will be given the option to receive a HINT. The HINT should make guessing easier! Good Luck!
+        <!-- or you can check the console -->
+    </p>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="hangman.js"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+body
+{
+    background-color: #AEC6CF;
+}
+header
+{
+    border: 2px solid black;
+    border-radius: 15px;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    background-color: darkcyan;
+    font-family: "Bookman Old Style";
+}
+h1
+{
+    font-size: 100px;
+    padding: 0;
+    margin: 0;
+}
+h3
+{
+    font-size: 25px;
+}
+p
+{
+    font-family: "Bookman Old Style";
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 15px;
+    text-align: center;
+    background-color: darkcyan;
+    width: 600px;
+    height: 300px;
+
+}
+#displayWord
+{
+    text-align: center;
+    font-size: 85px;
+}
+#playAgain, #hint, #rule, #play
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 50px;
+    border: 2px solid black;
+    border-radius: 15px;
+    text-align: center;
+    background-color: darkcyan;
+    font-family: "Bookman Old Style";
+    font-size: 25px;
+    font-weight: bold;
+}
+#playAgain:hover, #hint:hover, #rule:hover, #play:hover
+{
+    background-color: darkseagreen;
+}
+div
+{
+    text-align: center;
+    font-family: "Bookman Old Style";
+    font-weight: bold;
+    font-size: 25px;
+    margin: 50px 50px;
+}
+#rules
+{
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+    font-size: 23px
+}
