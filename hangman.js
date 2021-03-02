@@ -160,6 +160,7 @@ $(document).ready(function () {
     $('#hint').on('click', function () {
 
         console.log(randomWord.join(''), words[0]);
+        $('#hints').html(hintPhrases[ranNum]);
 
     });
     console.log(randomWord, words[0].split(''));
